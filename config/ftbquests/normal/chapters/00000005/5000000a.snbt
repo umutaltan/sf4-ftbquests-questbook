@@ -1,0 +1,17 @@
+{
+	title: "NuclearCraft Mastered",
+	icon: { id: "nuclearcraft:ingot_former", Count: 1b },
+	x: 3.0d, y: -1.5d,
+	optional: true,
+	dependencies: ["50000007", "50000009"],
+	text: [
+		"Alloy Furnace, Melter and Ingot Former - the NuclearCraft path is done.",
+		"This branch skips Mekanism's generators entirely by feeding straight off your orchard."
+	],
+	tasks: [
+		{ uid: "5100000a", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "5200000a", type: "item", item: { id: "minecraft:gold_block", Count: 2b } }
+	]
+}

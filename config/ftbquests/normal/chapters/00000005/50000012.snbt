@@ -1,0 +1,19 @@
+{
+	title: "Age Power Complete",
+	icon: { id: "minecraft:nether_star", Count: 1b },
+	x: 9.0d, y: 1.5d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["5000000b", "50000011"],
+	text: [
+		"Power sorted and your first Pristine Matter in hand - Age Power is complete.",
+		"&eUp next:&r &bAge Storage&r. Time to stop losing items in chests - pick AE2 or Simple Storage Network."
+	],
+	tasks: [
+		{ uid: "51000012", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "52000013", type: "xp_levels", xp_levels: 5 },
+		{ uid: "52000014", type: "loot", table: 3 }
+	]
+}

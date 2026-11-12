@@ -1,0 +1,20 @@
+{
+	title: "Astral Sorcery Complete",
+	icon: { id: "astralsorcery:itemjournal", Count: 1b },
+	x: 4.5d, y: 0.0d,
+	shape: "diamond",
+	size: 1.3d,
+	optional: true,
+	dependencies: ["80000003"],
+	text: [
+		"Wand, Altar, and an attunement - you've dipped into Astral Sorcery.",
+		"Entirely optional, but the constellation perks are worth keeping around."
+	],
+	tasks: [
+		{ uid: "81000004", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "82000004", type: "xp_levels", xp_levels: 3 },
+		{ uid: "82000005", type: "loot", table: 6 }
+	]
+}

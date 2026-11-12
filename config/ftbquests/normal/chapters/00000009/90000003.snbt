@@ -1,0 +1,17 @@
+{
+	title: "Prosperity Shard",
+	icon: { id: "mysticalagriculture:crafting", Damage: 5s, Count: 1b },
+	x: 3.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["90000002"],
+	text: [
+		"&7(Optional)&r Craft a Prosperity Shard from Sky Orchards Prosperity Acorns or Amber.",
+		"This connects Mystical Agriculture straight into your orchard - no mob farming needed."
+	],
+	tasks: [
+		{ uid: "91000003", type: "item", items: [ { id: "mysticalagriculture:crafting", Damage: 5s, Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "92000003", type: "item", item: { id: "minecraft:emerald", Count: 2b } }
+	]
+}

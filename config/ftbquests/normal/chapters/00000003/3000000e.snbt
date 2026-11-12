@@ -1,0 +1,19 @@
+{
+	title: "Age Farming Complete",
+	icon: { id: "minecraft:golden_apple", Count: 1b },
+	x: 3.0d, y: 4.5d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["30000001", "30000004", "30000005", "30000006", "30000007", "30000009", "3000000a", "3000000d"],
+	text: [
+		"Bonsai pots, soils, a market, and your own crops - your farm is self-sufficient now.",
+		"&eUp next:&r &bAge Enhancement&r. Time to build real Tinkers' Construct tools."
+	],
+	tasks: [
+		{ uid: "3100000e", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "3200000e", type: "xp_levels", xp_levels: 3 },
+		{ uid: "3200000f", type: "loot", table: 1 }
+	]
+}

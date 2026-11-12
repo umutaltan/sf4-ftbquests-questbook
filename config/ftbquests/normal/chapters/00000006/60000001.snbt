@@ -1,0 +1,16 @@
+{
+	title: "Wooden Hopper",
+	icon: { id: "tconstruct:wooden_hopper", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	dependencies: ["50000012"],
+	text: [
+		"Craft a Wooden Hopper.",
+		"Cheap item transport before you commit to a full storage system."
+	],
+	tasks: [
+		{ uid: "61000001", type: "item", items: [ { id: "tconstruct:wooden_hopper", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000001", type: "item", item: { id: "minecraft:planks", Count: 16b } }
+	]
+}

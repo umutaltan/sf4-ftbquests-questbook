@@ -1,0 +1,20 @@
+{
+	title: "Alloy Tank (Optional)",
+	icon: { id: "tcomplement:alloy_tank", Count: 1b },
+	x: 6.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["40000005"],
+	text: [
+		"&7(Optional)&r Add an Alloy Tank next to your Melter.",
+		"Mix two molten metals together for simple alloys like Bronze, before you even need a full Smeltery."
+	],
+	tasks: [
+		{ uid: "41000006", type: "item", items: [
+			{ id: "tcomplement:alloy_tank", Count: 1b },
+			{ id: "tcomplement:porcelain_alloy_tank", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000006", type: "item", item: { id: "minecraft:bucket", Count: 2b } }
+	]
+}

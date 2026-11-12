@@ -1,0 +1,39 @@
+{
+	title: "Obsidian",
+	icon: {
+		id: "minecraft:obsidian",
+		Count: 1b
+	},
+	x: 3.0d,
+	y: 5.0d,
+	dependencies: ["20000008", "20000009"],
+	text: [
+		"Pour water on lava (or lava on water) to make Obsidian.",
+		"This is your ticket to the Nether later, and useful for Enchantment Tables now."
+	],
+	tasks: [
+		{
+			uid: "2100000a",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:obsidian",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "2200000a",
+			type: "xp_levels",
+			xp_levels: 2
+		},
+		{
+			uid: "2200001b",
+			type: "item",
+			item: { id: "minecraft:flint_and_steel", Count: 1b }
+		}
+	]
+}

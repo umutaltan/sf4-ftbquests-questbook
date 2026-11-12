@@ -1,0 +1,22 @@
+{
+	title: "Rare Reactor Ores",
+	icon: { id: "nuclearcraft:ore", Damage: 4s, Count: 1b },
+	x: 0.0d, y: 8.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Mine 5 ores from the NuclearCraft set: Boron, Uranium, Thorium, Lithium, Magnesium.",
+		"These feed NuclearCraft's reactors - stock up now, you'll need plenty later."
+	],
+	tasks: [
+		{ uid: "7100000c", type: "item", items: [
+			{ id: "nuclearcraft:ore", Damage: 3s, Count: 1b },
+			{ id: "nuclearcraft:ore", Damage: 4s, Count: 1b },
+			{ id: "nuclearcraft:ore", Damage: 5s, Count: 1b },
+			{ id: "nuclearcraft:ore", Damage: 6s, Count: 1b },
+			{ id: "nuclearcraft:ore", Damage: 7s, Count: 1b }
+		], count: 5L }
+	],
+	rewards: [
+		{ uid: "7200000d", type: "item", item: { id: "minecraft:redstone_block", Count: 2b } }
+	]
+}

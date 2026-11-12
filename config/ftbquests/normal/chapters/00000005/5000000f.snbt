@@ -1,0 +1,16 @@
+{
+	title: "Extraction Chamber",
+	icon: { id: "deepmoblearning:extraction_chamber", Count: 1b },
+	x: 4.5d, y: 4.0d,
+	dependencies: ["5000000e"],
+	text: [
+		"Build an Extraction Chamber.",
+		"Feed it Living Matter to refine it into Pristine Matter - the ingredient for the really good stuff."
+	],
+	tasks: [
+		{ uid: "5100000f", type: "item", items: [ { id: "deepmoblearning:extraction_chamber", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000010", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

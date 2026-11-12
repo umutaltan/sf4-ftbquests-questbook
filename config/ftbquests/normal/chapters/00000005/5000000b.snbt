@@ -1,0 +1,19 @@
+{
+	title: "Energy Mastered",
+	icon: { id: "minecraft:redstone_block", Count: 1b },
+	x: 4.5d, y: -0.25d,
+	shape: "hexagon",
+	dependencies: ["50000006", "5000000a"],
+	dependency_requirement: "one_completed",
+	text: [
+		"&bChoice branch:&r you only need to finish ONE of Mekanism or NuclearCraft, not both.",
+		"Whichever path you picked, you've got power sorted now."
+	],
+	tasks: [
+		{ uid: "5100000b", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "5200000b", type: "item", item: { id: "minecraft:iron_ingot", Count: 16b } },
+		{ uid: "5200000c", type: "item", item: { id: "minecraft:redstone", Count: 16b } }
+	]
+}

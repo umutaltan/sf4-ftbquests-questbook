@@ -1,0 +1,17 @@
+{
+	title: "Armor Forge (Optional)",
+	icon: { id: "conarm:armorforge", Count: 1b },
+	x: 3.0d, y: -1.2d,
+	optional: true,
+	dependencies: ["4000000b"],
+	text: [
+		"&7(Optional)&r Build an Armor Forge for metal armor parts.",
+		"Pairs with your Smeltery just like the Tool Forge pairs with tools."
+	],
+	tasks: [
+		{ uid: "4100000c", type: "item", items: [ { id: "conarm:armorforge", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "4200000c", type: "item", item: { id: "minecraft:diamond", Count: 1b } }
+	]
+}

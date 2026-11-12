@@ -1,0 +1,26 @@
+{
+	title: "Simple Generator",
+	icon: { id: "simplegenerators:combustion_simple", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["4000000e"],
+	text: [
+		"&7(Optional - Mekanism path)&r Build any Simple Generator to start making power.",
+		"Pick whichever fuel suits you: combustion, culinary, nether, soul, geothermal..."
+	],
+	tasks: [
+		{ uid: "51000001", type: "item", items: [
+			{ id: "simplegenerators:combustion_simple", Count: 1b },
+			{ id: "simplegenerators:culinary_simple", Count: 1b },
+			{ id: "simplegenerators:ender_simple", Count: 1b },
+			{ id: "simplegenerators:nether_simple", Count: 1b },
+			{ id: "simplegenerators:soul_simple", Count: 1b },
+			{ id: "simplegenerators:geothermal_simple", Count: 1b },
+			{ id: "simplegenerators:fluid_combustion_simple", Count: 1b },
+			{ id: "simplegenerators:turbine_simple", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000001", type: "item", item: { id: "minecraft:coal", Count: 16b } }
+	]
+}

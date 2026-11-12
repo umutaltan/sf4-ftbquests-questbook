@@ -1,0 +1,39 @@
+{
+	title: "Lava Bucket",
+	icon: {
+		id: "minecraft:lava_bucket",
+		Count: 1b
+	},
+	x: 1.5d,
+	y: 5.5d,
+	dependencies: ["20000007"],
+	text: [
+		"Fill your Cauldron with lava (torch it under a lava source, or use other means) and bucket it up.",
+		"Careful with this one around flammable stuff."
+	],
+	tasks: [
+		{
+			uid: "21000009",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:lava_bucket",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000009",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "2200001a",
+			type: "item",
+			item: { id: "minecraft:torch", Count: 8b }
+		}
+	]
+}

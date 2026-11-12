@@ -1,0 +1,34 @@
+{
+	title: "Age 1 Complete",
+	icon: {
+		id: "minecraft:nether_star",
+		Count: 1b
+	},
+	x: 4.5d,
+	y: 2.5d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["20000001", "20000003", "20000004", "20000005", "20000006", "2000000a"],
+	text: [
+		"Tools, string, coal, diamond, your first metal, and obsidian - Age 1 is in the bag.",
+		"&eUp next:&r &bAge Farming&r. Bonsai pots, animal seeds, and your own little market."
+	],
+	tasks: [
+		{
+			uid: "21000010",
+			type: "checkmark"
+		}
+	],
+	rewards: [
+		{
+			uid: "22000010",
+			type: "xp_levels",
+			xp_levels: 3
+		},
+		{
+			uid: "22000011",
+			type: "loot",
+			table: 0
+		}
+	]
+}

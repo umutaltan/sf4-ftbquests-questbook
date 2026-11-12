@@ -1,0 +1,41 @@
+{
+	title: "Crushing Tub (Optional)",
+	icon: {
+		id: "rustic:crushing_tub",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 6.0d,
+	optional: true,
+	dependencies: ["10000009"],
+	text: [
+		"&7(Optional)&r Build a Crushing Tub - 2 planks, 3 slabs, done.",
+		"Crush saplings for water, turn stone acorns into sand/gravel, and more. Cheap and very handy."
+	],
+	tasks: [
+		{
+			uid: "2100000b",
+			type: "item",
+			items: [
+				{
+					id: "rustic:crushing_tub",
+					Count: 1b
+				}
+			],
+			count: 1L,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "2200000b",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "2200001c",
+			type: "item",
+			item: { id: "minecraft:string", Count: 4b }
+		}
+	]
+}

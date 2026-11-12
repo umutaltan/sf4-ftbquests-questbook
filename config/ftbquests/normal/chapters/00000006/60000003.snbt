@@ -1,0 +1,16 @@
+{
+	title: "Storage Crate",
+	icon: { id: "bdsandm:wood_crate", Count: 1b },
+	x: 0.0d, y: 1.0d,
+	dependencies: ["50000012"],
+	text: [
+		"Build a Wood Crate for cheap bulk storage.",
+		"Simple, early, and already better than a wall of chests."
+	],
+	tasks: [
+		{ uid: "61000003", type: "item", items: [ { id: "bdsandm:wood_crate", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000003", type: "item", item: { id: "minecraft:planks", Count: 16b } }
+	]
+}

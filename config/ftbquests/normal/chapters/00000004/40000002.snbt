@@ -1,0 +1,16 @@
+{
+	title: "Part Builder",
+	icon: { id: "tconstruct:tooltables", Damage: 2s, Count: 1b },
+	x: 1.5d, y: 0.0d,
+	dependencies: ["40000001"],
+	text: [
+		"Upgrade to a Part Builder.",
+		"Use a Pattern here with real material to cast actual Tool Parts, not just stencils."
+	],
+	tasks: [
+		{ uid: "41000002", type: "item", items: [ { id: "tconstruct:tooltables", Damage: 2s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000002", type: "item", item: { id: "minecraft:cobblestone", Count: 16b } }
+	]
+}

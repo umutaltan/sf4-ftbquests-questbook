@@ -1,0 +1,16 @@
+{
+	title: "Your First Tinkers Tool",
+	icon: { id: "minecraft:golden_pickaxe", Count: 1b },
+	x: 7.5d, y: 1.2d,
+	dependencies: ["40000008"],
+	text: [
+		"Build and hold your very first Tinkers' Construct tool.",
+		"Click to claim this one yourself once you've made it - no automatic detection, just check it off!"
+	],
+	tasks: [
+		{ uid: "41000009", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "42000009", type: "item", item: { id: "minecraft:diamond", Count: 1b } }
+	]
+}

@@ -1,0 +1,19 @@
+{
+	title: "First Melter",
+	icon: { id: "tcomplement:melter", Count: 1b },
+	x: 4.5d, y: 0.0d,
+	dependencies: ["40000003"],
+	text: [
+		"Build a Melter (or Porcelain Melter if you're short on metal - clay works too).",
+		"This melts a small amount of metal before you commit to a full Smeltery - your first real ingots."
+	],
+	tasks: [
+		{ uid: "41000005", type: "item", items: [
+			{ id: "tcomplement:melter", Count: 1b },
+			{ id: "tcomplement:porcelain_melter", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000005", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

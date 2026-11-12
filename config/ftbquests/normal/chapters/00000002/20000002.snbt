@@ -1,0 +1,39 @@
+{
+	title: "Cottonwood Sapling",
+	icon: {
+		id: "sky_orchards:sapling_cottonwood",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: ["10000009"],
+	text: [
+		"Find and grow a Cottonwood Sapling - another branch of the Sky Orchards tree.",
+		"&eUp next:&r its leaves dry into String, no sheep or spiders required."
+	],
+	tasks: [
+		{
+			uid: "21000002",
+			type: "item",
+			items: [
+				{
+					id: "sky_orchards:sapling_cottonwood",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000002",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "22000013",
+			type: "item",
+			item: { id: "sky_orchards:acorn_cottonwood", Count: 4b }
+		}
+	]
+}

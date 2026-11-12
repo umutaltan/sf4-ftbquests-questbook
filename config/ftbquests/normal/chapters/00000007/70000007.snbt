@@ -1,0 +1,17 @@
+{
+	title: "Dragon Breath (Optional)",
+	icon: { id: "minecraft:dragon_breath", Count: 1b },
+	x: 3.0d, y: 3.0d,
+	optional: true,
+	dependencies: ["70000006"],
+	text: [
+		"&7(Optional)&r Collect a bottle of Dragon Breath during the fight.",
+		"Used for lingering potions - grab it while the dragon's still breathing fire."
+	],
+	tasks: [
+		{ uid: "71000007", type: "item", items: [ { id: "minecraft:dragon_breath", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "72000008", type: "item", item: { id: "minecraft:ender_pearl", Count: 4b } }
+	]
+}

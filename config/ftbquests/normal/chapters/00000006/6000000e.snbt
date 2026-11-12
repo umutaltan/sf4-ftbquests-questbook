@@ -1,0 +1,19 @@
+{
+	title: "Age Storage Complete",
+	icon: { id: "minecraft:ender_chest", Count: 1b },
+	x: 7.5d, y: 2.5d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["60000002", "6000000d"],
+	text: [
+		"Hoppers sorted, storage network running - no more lost items in random chests.",
+		"&eUp next:&r &bAge Exploration&r. Nether, End, rare ores, and maybe a dragon fight."
+	],
+	tasks: [
+		{ uid: "6100000e", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "6200000f", type: "xp_levels", xp_levels: 5 },
+		{ uid: "62000010", type: "loot", table: 4 }
+	]
+}

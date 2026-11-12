@@ -1,0 +1,17 @@
+{
+	title: "Resonating Wand",
+	icon: { id: "astralsorcery:itemwand", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["20000010"],
+	text: [
+		"&7(Side branch, fully optional)&r Craft a Resonating Wand from Aquamarine, an Ender Pearl, and Marble.",
+		"Your gateway into Astral Sorcery - starlight magic, constellations, and buffs. Check JEI for Aquamarine's source."
+	],
+	tasks: [
+		{ uid: "81000001", type: "item", items: [ { id: "astralsorcery:itemwand", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "82000001", type: "item", item: { id: "minecraft:ender_pearl", Count: 2b } }
+	]
+}

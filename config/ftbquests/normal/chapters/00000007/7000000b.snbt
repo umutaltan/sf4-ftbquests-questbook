@@ -1,0 +1,16 @@
+{
+	title: "Tritanium Ore",
+	icon: { id: "matteroverdrive:tritanium_ore", Count: 1b },
+	x: 0.0d, y: 7.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Find and mine Tritanium Ore.",
+		"Another Matter Overdrive metal - part of their armor and tool progression."
+	],
+	tasks: [
+		{ uid: "7100000b", type: "item", items: [ { id: "matteroverdrive:tritanium_ore", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "7200000c", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

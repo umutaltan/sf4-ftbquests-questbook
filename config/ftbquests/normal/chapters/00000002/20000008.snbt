@@ -1,0 +1,39 @@
+{
+	title: "Water Bucket",
+	icon: {
+		id: "minecraft:water_bucket",
+		Count: 1b
+	},
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: ["20000007"],
+	text: [
+		"Leave the Cauldron out in the rain (or find water another way) and fill a bucket.",
+		"Water + Lava = Obsidian, your next stop."
+	],
+	tasks: [
+		{
+			uid: "21000008",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:water_bucket",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000008",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "22000019",
+			type: "item",
+			item: { id: "minecraft:bucket", Count: 1b }
+		}
+	]
+}

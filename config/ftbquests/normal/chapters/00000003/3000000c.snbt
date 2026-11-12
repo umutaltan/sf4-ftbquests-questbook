@@ -1,0 +1,17 @@
+{
+	title: "Chicken Feed (Optional)",
+	icon: { id: "mob_grinding_utils:gm_chicken_feed", Count: 1b },
+	x: 1.5d, y: 8.0d,
+	optional: true,
+	dependencies: ["3000000b"],
+	text: [
+		"&7(Optional)&r Combine seeds, a DNA-loaded swab, and XP into Chicken Feed.",
+		"Feed it to a chicken to get a spawn egg of whatever mob the DNA came from."
+	],
+	tasks: [
+		{ uid: "3100000c", type: "item", items: [ { id: "mob_grinding_utils:gm_chicken_feed", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "3200000c", type: "item", item: { id: "minecraft:wheat", Count: 8b } }
+	]
+}

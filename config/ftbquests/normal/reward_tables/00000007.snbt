@@ -1,0 +1,9 @@
+{
+	loot_size: 1,
+	rewards: [
+		{ type: "item", item: { id: "minecraft:ender_pearl", Count: 4b }, weight: 2 },
+		{ type: "item", item: { id: "minecraft:emerald", Count: 4b }, weight: 2 },
+		{ type: "item", item: { id: "minecraft:diamond", Count: 1b }, weight: 1 },
+		{ type: "xp", xp: 20, weight: 2 }
+	]
+}

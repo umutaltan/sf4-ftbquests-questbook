@@ -1,0 +1,16 @@
+{
+	title: "HydroGel",
+	icon: { id: "hydrogel:hydrogel", Count: 1b },
+	x: 0.0d, y: 7.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Get your hands on some HydroGel.",
+		"Spread it under crops for a passive hydration boost - less watering, more farming."
+	],
+	tasks: [
+		{ uid: "3100000a", type: "item", items: [ { id: "hydrogel:hydrogel", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "3200000a", type: "item", item: { id: "minecraft:dirt", Count: 8b } }
+	]
+}

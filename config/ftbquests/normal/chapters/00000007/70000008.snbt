@@ -1,0 +1,16 @@
+{
+	title: "Ardite Ore",
+	icon: { id: "tconstruct:ore", Damage: 1s, Count: 1b },
+	x: 0.0d, y: 4.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Find and mine Ardite Ore.",
+		"One of Tinkers' Construct's signature Nether metals - great for high-tier tools."
+	],
+	tasks: [
+		{ uid: "71000008", type: "item", items: [ { id: "tconstruct:ore", Damage: 1s, Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "72000009", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Tier Up",
+	icon: { id: "mysticalagriculture:tier5_inferium_seeds", Count: 1b },
+	x: 4.5d, y: 0.0d,
+	optional: true,
+	dependencies: ["90000003"],
+	text: [
+		"&7(Optional)&r Use a Seed Reprocessor and keep growing/harvesting to tier up your seeds.",
+		"Prudentium, Intermedium, Superium, Supremium - any tier-2-or-higher seed clears this."
+	],
+	tasks: [
+		{ uid: "91000004", type: "item", items: [
+			{ id: "mysticalagriculture:tier2_inferium_seeds", Count: 1b },
+			{ id: "mysticalagriculture:tier3_inferium_seeds", Count: 1b },
+			{ id: "mysticalagriculture:tier4_inferium_seeds", Count: 1b },
+			{ id: "mysticalagriculture:tier5_inferium_seeds", Count: 1b }
+		], count: 1L }
+	],
+	rewards: [
+		{ uid: "92000004", type: "item", item: { id: "minecraft:diamond", Count: 1b } }
+	]
+}

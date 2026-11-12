@@ -1,0 +1,19 @@
+{
+	title: "Age Exploration Complete",
+	icon: { id: "minecraft:elytra", Count: 1b },
+	x: 4.5d, y: 4.0d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["70000001", "70000005", "70000006", "70000008", "70000009", "7000000a", "7000000b", "7000000c"],
+	text: [
+		"Nether, End, dragon down, and rare ores collected - you've explored every corner that matters.",
+		"&eUp next:&r &bAge AllTheThingsOMGLOL&r. The endgame grind begins."
+	],
+	tasks: [
+		{ uid: "7100000d", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "7200000e", type: "xp_levels", xp_levels: 5 },
+		{ uid: "7200000f", type: "loot", table: 5 }
+	]
+}

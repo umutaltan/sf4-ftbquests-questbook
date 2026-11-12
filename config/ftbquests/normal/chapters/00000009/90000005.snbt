@@ -1,0 +1,23 @@
+{
+	title: "Agradditions Paxel",
+	icon: { id: "mysticalagradditions:supremium_paxel", Count: 1b },
+	x: 6.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["90000004"],
+	text: [
+		"&7(Optional)&r Craft any Mystical Agradditions Paxel (combines a Pickaxe, Shovel and Axe into one tool).",
+		"This also lines up with a bonus advancement in Age Enhancement - nice bit of overlap."
+	],
+	tasks: [
+		{ uid: "91000005", type: "item", items: [
+			{ id: "mysticalagradditions:inferium_paxel", Count: 1b },
+			{ id: "mysticalagradditions:prudentium_paxel", Count: 1b },
+			{ id: "mysticalagradditions:intermedium_paxel", Count: 1b },
+			{ id: "mysticalagradditions:superium_paxel", Count: 1b },
+			{ id: "mysticalagradditions:supremium_paxel", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "92000005", type: "item", item: { id: "minecraft:diamond_block", Count: 1b } }
+	]
+}

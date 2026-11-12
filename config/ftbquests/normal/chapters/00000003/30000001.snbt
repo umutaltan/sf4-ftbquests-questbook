@@ -1,0 +1,16 @@
+{
+	title: "Bonsai Pot",
+	icon: { id: "bonsaitrees:bonsaipot", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Craft a Bonsai Pot and plant any sapling in it with some dirt.",
+		"Tiny trees, full-size drops - this is how you farm saplings without a whole orchard."
+	],
+	tasks: [
+		{ uid: "31000001", type: "item", items: [ { id: "bonsaitrees:bonsaipot", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "32000001", type: "item", item: { id: "minecraft:dirt", Count: 16b } }
+	]
+}

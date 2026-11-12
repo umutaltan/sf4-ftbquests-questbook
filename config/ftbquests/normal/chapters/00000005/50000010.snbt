@@ -1,0 +1,20 @@
+{
+	title: "Living Matter",
+	icon: { id: "deepmoblearning:living_matter_overworldian", Count: 1b },
+	x: 6.0d, y: 4.0d,
+	dependencies: ["5000000f"],
+	text: [
+		"Collect your first batch of Living Matter from the Simulation Chamber.",
+		"Overworldian, Hellish, or Extraterrestrial - any one gets you moving to Pristine Matter."
+	],
+	tasks: [
+		{ uid: "51000010", type: "item", items: [
+			{ id: "deepmoblearning:living_matter_overworldian", Count: 1b },
+			{ id: "deepmoblearning:living_matter_hellish", Count: 1b },
+			{ id: "deepmoblearning:living_matter_extraterrestrial", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000011", type: "item", item: { id: "minecraft:emerald", Count: 1b } }
+	]
+}

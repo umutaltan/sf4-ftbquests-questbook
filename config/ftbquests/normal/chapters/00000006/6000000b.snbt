@@ -1,0 +1,20 @@
+{
+	title: "Request & Remote",
+	icon: { id: "storagenetwork:request", Count: 1b },
+	x: 1.5d, y: 5.4d,
+	optional: true,
+	dependencies: ["60000009"],
+	text: [
+		"&7(Optional - Simple Storage Network path)&r Craft a Request block or a Remote.",
+		"Request lets you pull items network-wide from one spot; the Remote does it from your pocket."
+	],
+	tasks: [
+		{ uid: "6100000b", type: "item", items: [
+			{ id: "storagenetwork:request", Count: 1b },
+			{ id: "storagenetwork:remote", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "6200000b", type: "item", item: { id: "minecraft:redstone", Count: 4b } }
+	]
+}

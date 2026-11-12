@@ -1,0 +1,16 @@
+{
+	title: "Data Model",
+	icon: { id: "deepmoblearning:data_model_zombie", Count: 1b },
+	x: 1.5d, y: 4.0d,
+	dependencies: ["5000000c"],
+	text: [
+		"Craft a Data Model (Zombie is the easy starter one).",
+		"Use your Deep Learner on zombies to study them and fill this model up."
+	],
+	tasks: [
+		{ uid: "5100000d", type: "item", items: [ { id: "deepmoblearning:data_model_zombie", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "5200000e", type: "item", item: { id: "minecraft:rotten_flesh", Count: 8b } }
+	]
+}

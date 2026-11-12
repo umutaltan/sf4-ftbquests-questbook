@@ -1,0 +1,26 @@
+{
+	title: "Upgradable Generator",
+	icon: { id: "simplegenerators:combustion_upgradable", Count: 1b },
+	x: 1.5d, y: 0.0d,
+	optional: true,
+	dependencies: ["50000001"],
+	text: [
+		"&7(Optional - Mekanism path)&r Upgrade your generator to its Upgradable form.",
+		"More power output from the same fuel - a cheap efficiency boost."
+	],
+	tasks: [
+		{ uid: "51000002", type: "item", items: [
+			{ id: "simplegenerators:combustion_upgradable", Count: 1b },
+			{ id: "simplegenerators:culinary_upgradable", Count: 1b },
+			{ id: "simplegenerators:ender_upgradable", Count: 1b },
+			{ id: "simplegenerators:nether_upgradable", Count: 1b },
+			{ id: "simplegenerators:soul_upgradable", Count: 1b },
+			{ id: "simplegenerators:geothermal_upgradable", Count: 1b },
+			{ id: "simplegenerators:fluid_combustion_upgradable", Count: 1b },
+			{ id: "simplegenerators:turbine_upgradable", Count: 1b }
+		], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000002", type: "item", item: { id: "minecraft:redstone", Count: 8b } }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Into the Nether",
+	icon: { id: "minecraft:netherrack", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Build a portal with Obsidian and step through into the Nether.",
+		"Watch for lava and ghasts - and grab some Netherrack while you're there."
+	],
+	tasks: [
+		{ uid: "71000001", type: "dimension", dim: -1 }
+	],
+	rewards: [
+		{ uid: "72000001", type: "item", item: { id: "minecraft:flint_and_steel", Count: 1b } },
+		{ uid: "72000002", type: "item", item: { id: "minecraft:obsidian", Count: 4b } }
+	]
+}

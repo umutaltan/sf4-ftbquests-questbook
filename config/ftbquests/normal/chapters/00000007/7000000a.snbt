@@ -1,0 +1,16 @@
+{
+	title: "Dilithium Crystal",
+	icon: { id: "matteroverdrive:dilithium_crystal", Count: 1b },
+	x: 0.0d, y: 6.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Get your hands on a Dilithium Crystal.",
+		"A Matter Overdrive material - used in some of their higher-tier tech."
+	],
+	tasks: [
+		{ uid: "7100000a", type: "item", items: [ { id: "matteroverdrive:dilithium_crystal", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "7200000b", type: "item", item: { id: "minecraft:redstone", Count: 8b } }
+	]
+}

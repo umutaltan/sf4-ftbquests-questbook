@@ -1,0 +1,17 @@
+{
+	title: "First Seed",
+	icon: { id: "mysticalagriculture:tier1_inferium_seeds", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["3000000e"],
+	text: [
+		"&7(Side branch, fully optional)&r Mob drops and ore mining for Inferium Seeds are disabled in this pack.",
+		"Claim this quest to get your starter seeds and kick off the whole Mystical Agriculture line."
+	],
+	tasks: [
+		{ uid: "91000001", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "92000001", type: "item", item: { id: "mysticalagriculture:tier1_inferium_seeds", Count: 4b } }
+	]
+}

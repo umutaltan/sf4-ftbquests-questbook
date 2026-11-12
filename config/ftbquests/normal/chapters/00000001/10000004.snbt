@@ -1,0 +1,40 @@
+{
+	title: "Wooden Crook",
+	icon: {
+		id: "inspirations:wooden_crook",
+		Count: 1b
+	},
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: ["10000003"],
+	text: [
+		"Craft a Wooden Crook at your Crafting Station.",
+		"Use it on leaves instead of your fist - it gives you a much better chance at saplings.",
+		"&eUp next:&r go find a Dirt Sapling in the leaves."
+	],
+	tasks: [
+		{
+			uid: "11000004",
+			type: "item",
+			items: [
+				{
+					id: "inspirations:wooden_crook",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000004",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "1200000f",
+			type: "item",
+			item: { id: "minecraft:dye", Damage: 15s, Count: 4b }
+		}
+	]
+}

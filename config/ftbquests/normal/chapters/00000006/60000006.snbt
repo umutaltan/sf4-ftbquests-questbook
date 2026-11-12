@@ -1,0 +1,17 @@
+{
+	title: "ME Terminal",
+	icon: { id: "appliedenergistics2:part", Damage: 380s, Count: 1b },
+	x: 1.5d, y: 3.0d,
+	optional: true,
+	dependencies: ["60000005"],
+	text: [
+		"&7(Optional - AE2 path)&r Craft an ME Terminal.",
+		"Your window into the ME network - search, craft, and manage everything from one screen."
+	],
+	tasks: [
+		{ uid: "61000006", type: "item", items: [ { id: "appliedenergistics2:part", Damage: 380s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000006", type: "item", item: { id: "minecraft:glass", Count: 8b } }
+	]
+}

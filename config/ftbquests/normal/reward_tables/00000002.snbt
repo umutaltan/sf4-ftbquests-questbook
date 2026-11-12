@@ -1,0 +1,10 @@
+{
+	loot_size: 1,
+	rewards: [
+		{ type: "item", item: { id: "minecraft:bread", Count: 8b }, weight: 3 },
+		{ type: "item", item: { id: "minecraft:golden_apple", Count: 1b }, weight: 1 },
+		{ type: "item", item: { id: "mysticalagriculture:tier1_inferium_seeds", Count: 2b }, weight: 1 },
+		{ type: "item", item: { id: "minecraft:dirt", Count: 32b }, weight: 2 },
+		{ type: "xp", xp: 15, weight: 2 }
+	]
+}

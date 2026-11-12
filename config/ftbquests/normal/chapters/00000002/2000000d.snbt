@@ -1,0 +1,42 @@
+{
+	title: "Green Slimy Dirt (Optional)",
+	icon: {
+		id: "tconstruct:slime_dirt",
+		Damage: 0s,
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 8.0d,
+	optional: true,
+	dependencies: ["10000009"],
+	text: [
+		"&7(Optional)&r Grow a Green Slimy Dirt patch - the soil Slime Saplings need.",
+		"&eUp next:&r pour milk on a Lapis Sapling over this dirt for a Blue Slime Sapling."
+	],
+	tasks: [
+		{
+			uid: "2100000d",
+			type: "item",
+			items: [
+				{
+					id: "tconstruct:slime_dirt",
+					Damage: 0s,
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "2200000d",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "2200001e",
+			type: "item",
+			item: { id: "minecraft:dirt", Count: 8b }
+		}
+	]
+}

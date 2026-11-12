@@ -1,0 +1,17 @@
+{
+	title: "Wither Slain (Optional)",
+	icon: { id: "minecraft:nether_star", Count: 1b },
+	x: 1.5d, y: 0.0d,
+	optional: true,
+	dependencies: ["70000001"],
+	text: [
+		"&7(Optional)&r Summon and defeat the Wither for a Nether Star.",
+		"Tough fight - bring good gear and maybe some friends or turrets."
+	],
+	tasks: [
+		{ uid: "71000002", type: "kill", entity: "minecraft:wither", value: 1L }
+	],
+	rewards: [
+		{ uid: "72000003", type: "item", item: { id: "minecraft:diamond", Count: 4b } }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Metal Crate (Optional)",
+	icon: { id: "bdsandm:metal_crate", Count: 1b },
+	x: 1.5d, y: 1.0d,
+	optional: true,
+	dependencies: ["60000003"],
+	text: [
+		"&7(Optional)&r Upgrade a Wood Crate into a Metal Crate for more capacity.",
+		"&eUp next:&r these stack into Shipping Containers for even more storage."
+	],
+	tasks: [
+		{ uid: "61000004", type: "item", items: [ { id: "bdsandm:metal_crate", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000004", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

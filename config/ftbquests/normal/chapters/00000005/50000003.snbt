@@ -1,0 +1,17 @@
+{
+	title: "Charger",
+	icon: { id: "chargers:charger", Count: 1b },
+	x: 0.0d, y: 1.0d,
+	optional: true,
+	dependencies: ["4000000e"],
+	text: [
+		"&7(Optional - Mekanism path)&r Build a Charger to store up power.",
+		"A battery for your base - charge it up, then draw from it when generators aren't running."
+	],
+	tasks: [
+		{ uid: "51000003", type: "item", items: [ { id: "chargers:charger", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000003", type: "item", item: { id: "minecraft:redstone", Count: 8b } }
+	]
+}

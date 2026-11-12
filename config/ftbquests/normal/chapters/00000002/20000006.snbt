@@ -1,0 +1,56 @@
+{
+	title: "First Amber",
+	icon: {
+		id: "sky_orchards:amber_iron",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: ["10000009"],
+	text: [
+		"Grow any metal sapling (iron/gold/lead/silver/tin) and combine its Acorn with Resin to make Amber.",
+		"Amber is raw metal waiting to be melted - any one type is fine for now.",
+		"&eUp next:&r Age Enhancement's Melter turns this into real ingots."
+	],
+	tasks: [
+		{
+			uid: "21000006",
+			type: "item",
+			items: [
+				{
+					id: "sky_orchards:amber_iron",
+					Count: 1b
+				},
+				{
+					id: "sky_orchards:amber_gold",
+					Count: 1b
+				},
+				{
+					id: "sky_orchards:amber_lead",
+					Count: 1b
+				},
+				{
+					id: "sky_orchards:amber_silver",
+					Count: 1b
+				},
+				{
+					id: "sky_orchards:amber_tin",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000006",
+			type: "xp_levels",
+			xp_levels: 2
+		},
+		{
+			uid: "22000017",
+			type: "item",
+			item: { id: "minecraft:iron_ingot", Count: 4b }
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Simulation Chamber",
+	icon: { id: "deepmoblearning:simulation_chamber", Count: 1b },
+	x: 3.0d, y: 4.0d,
+	dependencies: ["5000000d"],
+	text: [
+		"Build a Simulation Chamber.",
+		"Drop in a fully-studied Data Model and some XP - it farms Living Matter for you over time."
+	],
+	tasks: [
+		{ uid: "5100000e", type: "item", items: [ { id: "deepmoblearning:simulation_chamber", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "5200000f", type: "item", item: { id: "minecraft:redstone", Count: 8b } }
+	]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Convenient Slabs (Optional)",
+	icon: {
+		id: "slabmachines:crafting_station_slab",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 9.0d,
+	optional: true,
+	dependencies: ["10000009"],
+	text: [
+		"&7(Optional)&r Craft a Crafting Station Slab - a slim half-height version for tight builds.",
+		"Pure convenience, skip it if you don't care about space."
+	],
+	tasks: [
+		{
+			uid: "2100000f",
+			type: "item",
+			items: [
+				{
+					id: "slabmachines:crafting_station_slab",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "2200000f",
+			type: "xp_levels",
+			xp_levels: 1
+		}
+	]
+}

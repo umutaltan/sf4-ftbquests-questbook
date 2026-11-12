@@ -1,0 +1,16 @@
+{
+	title: "Sugar Cane Seed",
+	icon: { id: "inspirations:sugar_cane_seeds", Count: 1b },
+	x: 0.0d, y: 3.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Crush any tree leaves in water in a Crushing Tub to get Sugar Cane Seeds.",
+		"Plant them for a renewable sugar cane farm - paper and sugar incoming."
+	],
+	tasks: [
+		{ uid: "31000005", type: "item", items: [ { id: "inspirations:sugar_cane_seeds", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "32000005", type: "item", item: { id: "minecraft:reeds", Count: 4b } }
+	]
+}

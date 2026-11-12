@@ -1,0 +1,17 @@
+{
+	title: "Mekanism Mastered",
+	icon: { id: "mekanism:machineblock", Damage: 10s, Count: 1b },
+	x: 3.0d, y: 1.0d,
+	optional: true,
+	dependencies: ["50000002", "50000003", "50000005"],
+	text: [
+		"Generators, a charger, and an Energized Smelter - the Mekanism path is done.",
+		"If NuclearCraft isn't your thing, this alone is enough to clear Age Power's power requirement."
+	],
+	tasks: [
+		{ uid: "51000006", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "52000006", type: "item", item: { id: "minecraft:redstone_block", Count: 4b } }
+	]
+}

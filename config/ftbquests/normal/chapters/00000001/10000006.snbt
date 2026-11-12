@@ -1,0 +1,43 @@
+{
+	title: "Drying Rack",
+	icon: {
+		id: "tconstruct:rack",
+		Damage: 1s,
+		Count: 1b
+	},
+	x: 4.5d,
+	y: 1.0d,
+	dependencies: ["10000003"],
+	text: [
+		"Grab a Drying Rack from Tinkers' Construct and hang it on a wall.",
+		"It dries acorns into their next stage - you'll need it right after this for Petrified Acorns.",
+		"&eUp next:&r once your Dirt Sapling grows, dry its acorns here."
+	],
+	tasks: [
+		{
+			uid: "11000006",
+			type: "item",
+			items: [
+				{
+					id: "tconstruct:rack",
+					Damage: 1s,
+					Count: 1b
+				}
+			],
+			count: 1L,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "12000006",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "12000011",
+			type: "item",
+			item: { id: "minecraft:string", Count: 4b }
+		}
+	]
+}

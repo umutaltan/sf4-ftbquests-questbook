@@ -1,0 +1,39 @@
+{
+	title: "First Log",
+	icon: {
+		id: "minecraft:log",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Welcome to the sky! You're standing on a tiny island with one tree.",
+		"Punch that tree until a log falls out. That's it, that's the quest.",
+		"&eUp next:&r turn this log into planks so you can build your first tools."
+	],
+	tasks: [
+		{
+			uid: "11000001",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:log",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000001",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "1200000c",
+			type: "item",
+			item: { id: "minecraft:log", Count: 4b }
+		}
+	]
+}

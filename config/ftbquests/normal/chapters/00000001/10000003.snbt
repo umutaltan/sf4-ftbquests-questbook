@@ -1,0 +1,42 @@
+{
+	title: "Crafting Station",
+	icon: {
+		id: "tconstruct:tooltables",
+		Damage: 0s,
+		Count: 1b
+	},
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: ["10000002"],
+	text: [
+		"Craft a Crafting Station from your planks (Tinkers' Construct's workbench).",
+		"It works just like a normal table but it's the gateway to all Tinkers' tools later on.",
+		"&eUp next:&r two paths open up at once - a Wooden Crook and a Drying Rack. Get both!"
+	],
+	tasks: [
+		{
+			uid: "11000003",
+			type: "item",
+			items: [
+				{
+					id: "tconstruct:tooltables",
+					Damage: 0s,
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000003",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "1200000e",
+			type: "item",
+			item: { id: "minecraft:torch", Count: 4b }
+		}
+	]
+}

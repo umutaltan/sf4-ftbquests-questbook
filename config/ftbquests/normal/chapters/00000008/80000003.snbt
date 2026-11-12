@@ -1,0 +1,17 @@
+{
+	title: "Attune to a Constellation",
+	icon: { id: "astralsorcery:itemcraftingcomponent", Count: 1b },
+	x: 3.0d, y: 0.0d,
+	optional: true,
+	dependencies: ["80000002"],
+	text: [
+		"&7(Optional)&r Use your Wand under a starry sky to attune yourself to a constellation.",
+		"Vicio for speed, Armara for defense - pick whatever fits your playstyle."
+	],
+	tasks: [
+		{ uid: "81000003", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "82000003", type: "item", item: { id: "minecraft:emerald", Count: 2b } }
+	]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Tool Station",
+	icon: { id: "tconstruct:tooltables", Damage: 3s, Count: 1b },
+	x: 3.0d, y: 0.0d,
+	dependencies: ["40000002"],
+	text: [
+		"Build a Tool Station - where all those parts come together into a finished tool.",
+		"Three paths open from here: Tool Forge, Armor Station, and a full Melter setup."
+	],
+	tasks: [
+		{ uid: "41000003", type: "item", items: [ { id: "tconstruct:tooltables", Damage: 3s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000003", type: "item", item: { id: "minecraft:stick", Count: 8b } }
+	]
+}

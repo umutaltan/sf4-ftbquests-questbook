@@ -1,0 +1,16 @@
+{
+	title: "Hopper",
+	icon: { id: "minecraft:hopper", Count: 1b },
+	x: 1.5d, y: 0.0d,
+	dependencies: ["60000001"],
+	text: [
+		"Craft a regular iron Hopper too.",
+		"Faster and sturdier than the wooden one - good to have both on hand."
+	],
+	tasks: [
+		{ uid: "61000002", type: "item", items: [ { id: "minecraft:hopper", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000002", type: "item", item: { id: "minecraft:iron_ingot", Count: 5b } }
+	]
+}

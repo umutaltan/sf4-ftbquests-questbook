@@ -1,0 +1,19 @@
+{
+	title: "Sorted",
+	icon: { id: "minecraft:chest", Count: 1b },
+	x: 6.0d, y: 4.0d,
+	shape: "hexagon",
+	dependencies: ["60000008", "6000000c"],
+	dependency_requirement: "one_completed",
+	text: [
+		"&bChoice branch:&r only one of AE2 or Simple Storage Network is required here.",
+		"Whichever you picked, your items are finally sorted and findable."
+	],
+	tasks: [
+		{ uid: "6100000d", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "6200000d", type: "item", item: { id: "minecraft:iron_ingot", Count: 16b } },
+		{ uid: "6200000e", type: "item", item: { id: "minecraft:redstone", Count: 16b } }
+	]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Oak Planks",
+	icon: {
+		id: "minecraft:planks",
+		Count: 1b
+	},
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: ["10000001"],
+	text: [
+		"Open your inventory crafting grid and turn that log into 8 planks.",
+		"Planks are the base of almost everything you'll build today.",
+		"&eUp next:&r a Crafting Station, your very first workbench upgrade."
+	],
+	tasks: [
+		{
+			uid: "11000002",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:planks",
+					Count: 1b
+				}
+			],
+			count: 8L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000002",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "1200000d",
+			type: "item",
+			item: { id: "minecraft:planks", Count: 8b }
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Animal Seeds",
+	icon: { id: "animalcrops:seeds", Count: 1b },
+	x: 0.0d, y: 5.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Craft any Animal Crop seed (chicken, pig, cow, you name it) and plant it.",
+		"Grows into the actual animal - a seed-based alternative to breeding from scratch."
+	],
+	tasks: [
+		{ uid: "31000007", type: "item", items: [ { id: "animalcrops:seeds", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "32000007", type: "item", item: { id: "minecraft:wheat_seeds", Count: 8b } }
+	]
+}

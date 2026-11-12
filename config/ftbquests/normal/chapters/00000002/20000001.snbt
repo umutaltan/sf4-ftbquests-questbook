@@ -1,0 +1,39 @@
+{
+	title: "Stone Crook",
+	icon: {
+		id: "inspirations:stone_crook",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: ["10000009"],
+	text: [
+		"Upgrade your Wooden Crook to a Stone Crook. Better harvest chance, same trick.",
+		"Keep this on you whenever you're farming leaves - it pays for itself fast."
+	],
+	tasks: [
+		{
+			uid: "21000001",
+			type: "item",
+			items: [
+				{
+					id: "inspirations:stone_crook",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000001",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "22000012",
+			type: "item",
+			item: { id: "minecraft:cobblestone", Count: 8b }
+		}
+	]
+}

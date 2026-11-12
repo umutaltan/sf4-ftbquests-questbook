@@ -1,0 +1,10 @@
+{
+	loot_size: 3,
+	rewards: [
+		{ type: "item", item: { id: "minecraft:diamond_block", Count: 1b }, weight: 1 },
+		{ type: "item", item: { id: "minecraft:emerald", Count: 8b }, weight: 2 },
+		{ type: "item", item: { id: "minecraft:nether_star", Count: 1b }, weight: 1 },
+		{ type: "item", item: { id: "minecraft:ender_pearl", Count: 16b }, weight: 2 },
+		{ type: "xp", xp: 60, weight: 2 }
+	]
+}

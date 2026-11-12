@@ -1,0 +1,40 @@
+{
+	title: "Petrified Sapling",
+	icon: {
+		id: "sky_orchards:sapling_petrified",
+		Count: 1b
+	},
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: ["10000007"],
+	text: [
+		"Craft a Petrified Sapling: 1 Dirt Sapling surrounded by 8 Petrified Acorns.",
+		"Plant and grow it - this tree drops cobblestone, your ticket off the dirt-only island life.",
+		"&eUp next:&r harvest your first Cobblestone."
+	],
+	tasks: [
+		{
+			uid: "11000008",
+			type: "item",
+			items: [
+				{
+					id: "sky_orchards:sapling_petrified",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000008",
+			type: "xp_levels",
+			xp_levels: 2
+		},
+		{
+			uid: "12000013",
+			type: "item",
+			item: { id: "minecraft:cobblestone", Count: 16b }
+		}
+	]
+}

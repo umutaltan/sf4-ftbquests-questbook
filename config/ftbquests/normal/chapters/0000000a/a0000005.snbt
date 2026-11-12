@@ -1,0 +1,19 @@
+{
+	title: "You Win!",
+	icon: { id: "minecraft:nether_star", Count: 1b },
+	x: 4.5d, y: 1.5d,
+	shape: "gear",
+	size: 1.5d,
+	dependencies: ["a0000001", "a0000002", "a0000003", "a0000004", "7000000d", "50000012", "6000000e", "4000000e"],
+	text: [
+		"Every main chapter complete, a fusion reactor humming, max storage, and a mountain of Pristine Matter.",
+		"&bYou Win!&r Thanks for playing through this book - everything past here is up to you."
+	],
+	tasks: [
+		{ uid: "a1000005", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "a2000005", type: "xp_levels", xp_levels: 10 },
+		{ uid: "a2000006", type: "loot", table: 8 }
+	]
+}

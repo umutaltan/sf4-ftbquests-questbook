@@ -1,0 +1,19 @@
+{
+	title: "Age Enhancement Complete",
+	icon: { id: "tconstruct:toolforge", Count: 1b },
+	x: 9.0d, y: 0.0d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["40000001", "40000002", "40000003", "40000005", "40000008", "40000009", "4000000a", "4000000b", "4000000d"],
+	text: [
+		"Full Tinkers' Construct setup, a Smeltery, your first tool, an Enchantment Table - huge milestone.",
+		"&eUp next:&r &bAge Power&r. Pick a side: Mekanism or NuclearCraft, plus Deep Mob Learning."
+	],
+	tasks: [
+		{ uid: "4100000e", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "4200000e", type: "xp_levels", xp_levels: 4 },
+		{ uid: "4200000f", type: "loot", table: 2 }
+	]
+}

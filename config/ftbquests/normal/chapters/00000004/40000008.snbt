@@ -1,0 +1,16 @@
+{
+	title: "Smeltery Controller",
+	icon: { id: "tconstruct:smeltery_controller", Count: 1b },
+	x: 6.0d, y: 1.2d,
+	dependencies: ["40000005"],
+	text: [
+		"Build a full Smeltery Controller with Seared Bricks (surrounded by Drain, Tank and Faucet).",
+		"This is the big leagues - melt large batches of metal at once instead of one Melter-load at a time."
+	],
+	tasks: [
+		{ uid: "41000008", type: "item", items: [ { id: "tconstruct:smeltery_controller", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000008", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

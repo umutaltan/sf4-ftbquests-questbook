@@ -1,0 +1,16 @@
+{
+	title: "Pristine Matter",
+	icon: { id: "deepmoblearning:pristine_matter_zombie", Count: 1b },
+	x: 7.5d, y: 4.0d,
+	dependencies: ["50000010"],
+	text: [
+		"Run Living Matter through your Extraction Chamber to get Pristine Matter.",
+		"This is a seriously powerful crafting ingredient - keep making more, you'll want it for the endgame."
+	],
+	tasks: [
+		{ uid: "51000011", type: "item", items: [ { id: "deepmoblearning:pristine_matter_zombie", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000012", type: "item", item: { id: "minecraft:diamond", Count: 1b } }
+	]
+}

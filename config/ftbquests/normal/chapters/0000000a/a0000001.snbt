@@ -1,0 +1,16 @@
+{
+	title: "Fusion Reactor",
+	icon: { id: "nuclearcraft:fusion_core", Count: 1b },
+	x: 0.0d, y: 0.0d,
+	dependencies: ["7000000d"],
+	text: [
+		"Build a NuclearCraft Fusion Reactor - this takes a real multiblock setup with electromagnets.",
+		"Huge power output once running, but check JEI/the NuclearCraft guide for the full structure."
+	],
+	tasks: [
+		{ uid: "a1000001", type: "item", items: [ { id: "nuclearcraft:fusion_core", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "a2000001", type: "item", item: { id: "minecraft:diamond_block", Count: 2b } }
+	]
+}

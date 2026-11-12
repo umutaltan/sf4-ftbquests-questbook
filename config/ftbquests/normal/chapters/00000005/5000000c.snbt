@@ -1,0 +1,16 @@
+{
+	title: "Deep Learner",
+	icon: { id: "deepmoblearning:deep_learner", Count: 1b },
+	x: 0.0d, y: 4.0d,
+	dependencies: ["4000000e"],
+	text: [
+		"Craft a Deep Learner.",
+		"&eUp next:&r build a Data Model to start studying mobs with it."
+	],
+	tasks: [
+		{ uid: "5100000c", type: "item", items: [ { id: "deepmoblearning:deep_learner", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "5200000d", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Twilight Forest (Optional)",
+	icon: { id: "twilightforest:portal", Count: 1b },
+	x: 0.0d, y: 1.0d,
+	optional: true,
+	dependencies: ["6000000e"],
+	text: [
+		"&7(Optional)&r Find a Twilight Forest portal and step through.",
+		"A whole separate dimension with its own progression and bosses - only shows up if your world supports it."
+	],
+	tasks: [
+		{ uid: "71000003", type: "dimension", dim: 7 }
+	],
+	rewards: [
+		{ uid: "72000004", type: "item", item: { id: "minecraft:emerald", Count: 2b } }
+	]
+}

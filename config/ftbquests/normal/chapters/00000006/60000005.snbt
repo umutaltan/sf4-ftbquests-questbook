@@ -1,0 +1,17 @@
+{
+	title: "Fluix Crystal",
+	icon: { id: "appliedenergistics2:material", Damage: 7s, Count: 1b },
+	x: 0.0d, y: 3.0d,
+	optional: true,
+	dependencies: ["50000012"],
+	text: [
+		"&7(Optional - AE2 path)&r Craft a Fluix Crystal - the core material of Applied Energistics 2.",
+		"Good news: this pack's AE2 doesn't need a Controller or channels, much simpler to set up."
+	],
+	tasks: [
+		{ uid: "61000005", type: "item", items: [ { id: "appliedenergistics2:material", Damage: 7s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000005", type: "item", item: { id: "minecraft:redstone", Count: 8b } }
+	]
+}

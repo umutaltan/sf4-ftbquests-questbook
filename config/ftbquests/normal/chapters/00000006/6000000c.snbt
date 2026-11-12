@@ -1,0 +1,17 @@
+{
+	title: "Simple Storage Mastered",
+	icon: { id: "storagenetwork:controller", Count: 1b },
+	x: 3.0d, y: 5.0d,
+	optional: true,
+	dependencies: ["6000000a", "6000000b"],
+	text: [
+		"Master, cable, and a request/remote in hand - your network is up and running.",
+		"Simple, cheap, and no central crafting system - but it gets items where you need them."
+	],
+	tasks: [
+		{ uid: "6100000c", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "6200000c", type: "item", item: { id: "minecraft:iron_block", Count: 2b } }
+	]
+}

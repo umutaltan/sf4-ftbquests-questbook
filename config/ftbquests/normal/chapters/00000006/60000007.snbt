@@ -1,0 +1,17 @@
+{
+	title: "Drive Bay",
+	icon: { id: "appliedenergistics2:drive", Count: 1b },
+	x: 3.0d, y: 3.0d,
+	optional: true,
+	dependencies: ["60000006"],
+	text: [
+		"&7(Optional - AE2 path)&r Build a Drive Bay and slot in a Storage Cell.",
+		"This is where your items actually live - the real heart of the ME network."
+	],
+	tasks: [
+		{ uid: "61000007", type: "item", items: [ { id: "appliedenergistics2:drive", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000007", type: "item", item: { id: "minecraft:gold_ingot", Count: 4b } }
+	]
+}

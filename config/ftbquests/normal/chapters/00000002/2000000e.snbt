@@ -1,0 +1,35 @@
+{
+	title: "Blue Slime Sapling (Optional)",
+	icon: {
+		id: "tconstruct:slime_sapling",
+		Count: 1b
+	},
+	x: 1.5d,
+	y: 8.0d,
+	optional: true,
+	dependencies: ["2000000d", "20000007"],
+	text: [
+		"&7(Optional)&r Fill your Cauldron with milk, dip a Lapis Sapling in it over Slimy Dirt.",
+		"Slime trees are a fun detour into Tinkers' slime materials - purely for the curious."
+	],
+	tasks: [
+		{
+			uid: "2100000e",
+			type: "item",
+			items: [
+				{
+					id: "tconstruct:slime_sapling",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "2200000e",
+			type: "xp_levels",
+			xp_levels: 1
+		}
+	]
+}

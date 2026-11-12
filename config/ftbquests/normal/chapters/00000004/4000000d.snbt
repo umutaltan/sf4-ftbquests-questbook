@@ -1,0 +1,16 @@
+{
+	title: "Enchantment Table",
+	icon: { id: "minecraft:enchanting_table", Count: 1b },
+	x: 0.0d, y: -2.4d,
+	dependencies: ["3000000e"],
+	text: [
+		"Craft an Enchantment Table from obsidian, diamonds, and a book.",
+		"Stack bookshelves around it for better enchants - useful for every tool and armor piece you make."
+	],
+	tasks: [
+		{ uid: "4100000d", type: "item", items: [ { id: "minecraft:enchanting_table", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "4200000d", type: "item", item: { id: "minecraft:lapis_lazuli", Count: 8b } }
+	]
+}

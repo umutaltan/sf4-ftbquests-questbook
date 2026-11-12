@@ -1,0 +1,16 @@
+{
+	title: "Watering Can",
+	icon: { id: "tp:watering_can", Count: 1b },
+	x: 0.0d, y: 6.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Grab a Watering Can and fill it up.",
+		"Speeds up crop growth in an area - a basic but essential farming tool."
+	],
+	tasks: [
+		{ uid: "31000009", type: "item", items: [ { id: "tp:watering_can", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "32000009", type: "item", item: { id: "minecraft:water_bucket", Count: 1b } }
+	]
+}

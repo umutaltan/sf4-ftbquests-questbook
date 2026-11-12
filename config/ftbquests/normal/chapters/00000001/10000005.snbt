@@ -1,0 +1,40 @@
+{
+	title: "Dirt Sapling",
+	icon: {
+		id: "sky_orchards:sapling_dirt",
+		Count: 1b
+	},
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: ["10000004"],
+	text: [
+		"Break the leaves on your tree with the Wooden Crook until a Dirt Sapling drops.",
+		"This little sapling is the start of the entire Sky Orchards resource tree - dirt, stone, metals, everything.",
+		"&eUp next:&r plant it on a dirt block and run circles around it to speed up the growth."
+	],
+	tasks: [
+		{
+			uid: "11000005",
+			type: "item",
+			items: [
+				{
+					id: "sky_orchards:sapling_dirt",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000005",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "12000010",
+			type: "item",
+			item: { id: "minecraft:dirt", Count: 16b }
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Quantum Compressor",
+	icon: { id: "ec:compressor", Count: 1b },
+	x: 3.0d, y: 0.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Build a Quantum Compressor from Extended Crafting.",
+		"Crafts Singularities - absurdly compressed materials used in the best endgame recipes."
+	],
+	tasks: [
+		{ uid: "a1000003", type: "item", items: [ { id: "ec:compressor", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "a2000003", type: "item", item: { id: "minecraft:diamond", Count: 4b } }
+	]
+}

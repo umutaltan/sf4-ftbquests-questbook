@@ -1,0 +1,17 @@
+{
+	title: "Ingot Former",
+	icon: { id: "nuclearcraft:ingot_former_idle", Count: 1b },
+	x: 1.5d, y: -2.0d,
+	optional: true,
+	dependencies: ["50000008"],
+	text: [
+		"&7(Optional - NuclearCraft path)&r Build an Ingot Former next to your Melter.",
+		"Turns that molten Amber metal into actual ingots and gems you can use."
+	],
+	tasks: [
+		{ uid: "51000009", type: "item", items: [ { id: "nuclearcraft:ingot_former_idle", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000009", type: "item", item: { id: "minecraft:gold_ingot", Count: 4b } }
+	]
+}

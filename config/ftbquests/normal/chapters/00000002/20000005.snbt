@@ -1,0 +1,39 @@
+{
+	title: "Diamond in the Rough",
+	icon: {
+		id: "minecraft:diamond",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: ["10000009"],
+	text: [
+		"Grow a Diamond Sapling and pick your first Diamond straight off the branch.",
+		"No mining required - skyblock perks. Save some for an Enchantment Table later."
+	],
+	tasks: [
+		{
+			uid: "21000005",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:diamond",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000005",
+			type: "xp_levels",
+			xp_levels: 2
+		},
+		{
+			uid: "22000016",
+			type: "item",
+			item: { id: "minecraft:diamond", Count: 1b }
+		}
+	]
+}

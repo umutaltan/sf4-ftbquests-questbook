@@ -1,0 +1,17 @@
+{
+	title: "Mob Swab",
+	icon: { id: "mob_grinding_utils:mob_swab", Damage: 1s, Count: 1b },
+	x: 0.0d, y: 8.0d,
+	optional: true,
+	dependencies: ["20000010"],
+	text: [
+		"&7(Optional)&r Swab a mob to collect its DNA on a Mob Swab.",
+		"&eUp next:&r turn a DNA swab into Chicken Feed for a spawn egg shortcut."
+	],
+	tasks: [
+		{ uid: "3100000b", type: "item", items: [ { id: "mob_grinding_utils:mob_swab", Damage: 1s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "3200000b", type: "item", item: { id: "minecraft:feather", Count: 8b } }
+	]
+}

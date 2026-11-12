@@ -1,0 +1,17 @@
+{
+	title: "NuclearCraft Melter",
+	icon: { id: "nuclearcraft:melter_idle", Count: 1b },
+	x: 0.0d, y: -2.0d,
+	optional: true,
+	dependencies: ["4000000e"],
+	text: [
+		"&7(Optional - NuclearCraft path)&r Build a Melter.",
+		"Feed it Amber straight from your Sky Orchards trees - this is the fastest way to liquid metal."
+	],
+	tasks: [
+		{ uid: "51000008", type: "item", items: [ { id: "nuclearcraft:melter_idle", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000008", type: "item", item: { id: "sky_orchards:amber_iron", Count: 2b } }
+	]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Tool Forge",
+	icon: { id: "tconstruct:toolforge", Count: 1b },
+	x: 4.5d, y: -1.2d,
+	dependencies: ["40000003"],
+	text: [
+		"Build a Tool Forge next to your Tool Station.",
+		"It lets you assemble tools out of metal parts that need heat - a step up from plain wood and stone."
+	],
+	tasks: [
+		{ uid: "4100000a", type: "item", items: [ { id: "tconstruct:toolforge", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "4200000a", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

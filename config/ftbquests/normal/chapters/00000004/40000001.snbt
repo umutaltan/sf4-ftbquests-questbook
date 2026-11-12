@@ -1,0 +1,16 @@
+{
+	title: "Stencil Table",
+	icon: { id: "tconstruct:tooltables", Damage: 1s, Count: 1b },
+	x: 0.0d, y: 0.0d,
+	dependencies: ["3000000e"],
+	text: [
+		"Craft a Stencil Table from your Crafting Station.",
+		"This is where you'll cut patterns out of raw materials - the first step of every Tinkers' tool."
+	],
+	tasks: [
+		{ uid: "41000001", type: "item", items: [ { id: "tconstruct:tooltables", Damage: 1s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000001", type: "item", item: { id: "minecraft:planks", Count: 16b } }
+	]
+}

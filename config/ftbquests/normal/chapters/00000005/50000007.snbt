@@ -1,0 +1,17 @@
+{
+	title: "Alloy Furnace",
+	icon: { id: "nuclearcraft:alloy_furnace_idle", Count: 1b },
+	x: 0.0d, y: -1.0d,
+	optional: true,
+	dependencies: ["4000000e"],
+	text: [
+		"&7(Optional - NuclearCraft path)&r Build an Alloy Furnace.",
+		"Combines base metals into alloys - also doubles as a glass-alloy maker with the right ingots."
+	],
+	tasks: [
+		{ uid: "51000007", type: "item", items: [ { id: "nuclearcraft:alloy_furnace_idle", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000007", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

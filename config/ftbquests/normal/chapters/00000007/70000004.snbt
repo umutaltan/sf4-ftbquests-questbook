@@ -1,0 +1,17 @@
+{
+	title: "Hunting Dimension (Optional)",
+	icon: { id: "telepastries:hunting_dimension_cake", Count: 1b },
+	x: 0.0d, y: 2.0d,
+	optional: true,
+	dependencies: ["6000000e"],
+	text: [
+		"&7(Optional)&r Bake and eat a Hunting Dimension Cake from TelePastries.",
+		"Teleports you to a dimension built for one thing: hunting mobs for loot."
+	],
+	tasks: [
+		{ uid: "71000004", type: "dimension", dim: 28885 }
+	],
+	rewards: [
+		{ uid: "72000005", type: "item", item: { id: "minecraft:arrow", Count: 16b } }
+	]
+}

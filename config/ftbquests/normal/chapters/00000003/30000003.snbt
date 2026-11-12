@@ -1,0 +1,24 @@
+{
+	title: "Mulch Matters (Optional)",
+	icon: { id: "inspirations:mulch", Damage: 3s, Count: 1b },
+	x: 0.0d, y: 1.0d,
+	optional: true,
+	dependencies: ["30000001"],
+	text: [
+		"&7(Optional)&r Get any colored Mulch and line your Bonsai Pot with it.",
+		"Faster growth, better drop chance - worth it if you're running pots long-term."
+	],
+	tasks: [
+		{ uid: "31000003", type: "item", items: [
+			{ id: "inspirations:mulch", Damage: 1s, Count: 1b },
+			{ id: "inspirations:mulch", Damage: 2s, Count: 1b },
+			{ id: "inspirations:mulch", Damage: 3s, Count: 1b },
+			{ id: "inspirations:mulch", Damage: 4s, Count: 1b },
+			{ id: "inspirations:mulch", Damage: 5s, Count: 1b },
+			{ id: "inspirations:mulch", Damage: 6s, Count: 1b }
+		], count: 1L }
+	],
+	rewards: [
+		{ uid: "32000003", type: "item", item: { id: "minecraft:dye", Damage: 15s, Count: 8b } }
+	]
+}

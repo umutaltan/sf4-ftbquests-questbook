@@ -1,0 +1,16 @@
+{
+	title: "Armor Station",
+	icon: { id: "conarm:armorstation", Count: 1b },
+	x: 1.5d, y: -1.2d,
+	dependencies: ["40000002"],
+	text: [
+		"Build an Armor Station - the Tool Station's armor-focused cousin.",
+		"&eUp next:&r an Armor Forge for heat-treated armor pieces."
+	],
+	tasks: [
+		{ uid: "4100000b", type: "item", items: [ { id: "conarm:armorstation", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "4200000b", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Altar Tier 1",
+	icon: { id: "astralsorcery:blockaltar", Count: 1b },
+	x: 1.5d, y: 0.0d,
+	optional: true,
+	dependencies: ["80000001"],
+	text: [
+		"&7(Optional)&r Build a Tier 1 Altar out of Marble.",
+		"Starlight accumulates here at night - the altar upgrades through tiers as you progress."
+	],
+	tasks: [
+		{ uid: "81000002", type: "item", items: [ { id: "astralsorcery:blockaltar", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "82000002", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

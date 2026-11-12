@@ -1,0 +1,39 @@
+{
+	title: "Coal",
+	icon: {
+		id: "minecraft:coal",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: ["10000009"],
+	text: [
+		"Grow a Coal Sapling and stockpile 4 Coal.",
+		"Fuel for furnaces, torches, and your early Melter - you'll burn through this fast."
+	],
+	tasks: [
+		{
+			uid: "21000004",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:coal",
+					Count: 1b
+				}
+			],
+			count: 4L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000004",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "22000015",
+			type: "item",
+			item: { id: "minecraft:coal", Count: 8b }
+		}
+	]
+}

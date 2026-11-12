@@ -1,0 +1,16 @@
+{
+	title: "Market",
+	icon: { id: "farmingforblockheads:market", Count: 1b },
+	x: 0.0d, y: 4.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Build a Market stall and give it a few emeralds to get started.",
+		"It sells seeds, saplings, flowers and food for emeralds - great for filling gaps in your farm."
+	],
+	tasks: [
+		{ uid: "31000006", type: "item", items: [ { id: "farmingforblockheads:market", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "32000006", type: "item", item: { id: "minecraft:emerald", Count: 4b } }
+	]
+}

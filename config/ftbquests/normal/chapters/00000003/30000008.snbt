@@ -1,0 +1,17 @@
+{
+	title: "Cow in a Jar (Optional)",
+	icon: { id: "cookingforblockheads:cow_jar", Count: 1b },
+	x: 1.5d, y: 5.0d,
+	optional: true,
+	dependencies: ["30000007"],
+	text: [
+		"&7(Optional)&r Trap a cow seed in a jar on an anvil, surrounded by glass panes.",
+		"Infinite milk in a tiny jar - no pasture needed."
+	],
+	tasks: [
+		{ uid: "31000008", type: "item", items: [ { id: "cookingforblockheads:cow_jar", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "32000008", type: "item", item: { id: "minecraft:milk_bucket", Count: 1b } }
+	]
+}

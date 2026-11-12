@@ -1,0 +1,16 @@
+{
+	title: "Ender Seeds",
+	icon: { id: "endercrop:ender_seeds", Count: 1b },
+	x: 0.0d, y: 9.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Plant Ender Seeds on tilled dirt or end stone.",
+		"Grows ender pearls on a stick - a steady, mob-free pearl supply."
+	],
+	tasks: [
+		{ uid: "3100000d", type: "item", items: [ { id: "endercrop:ender_seeds", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "3200000d", type: "item", item: { id: "minecraft:ender_pearl", Count: 1b } }
+	]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Maxed Out Storage",
+	icon: { id: "extracells:storage.physical.16384k", Count: 1b },
+	x: 1.5d, y: 0.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Build or acquire a 16384k ME Storage Cell from ExtraCells.",
+		"Your original 1K cell from Age Storage is long full by now - time to go big."
+	],
+	tasks: [
+		{ uid: "a1000002", type: "item", items: [ { id: "extracells:storage.physical.16384k", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "a2000002", type: "item", item: { id: "minecraft:gold_block", Count: 2b } }
+	]
+}

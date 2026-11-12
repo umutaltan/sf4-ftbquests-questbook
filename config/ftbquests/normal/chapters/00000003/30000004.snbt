@@ -1,0 +1,16 @@
+{
+	title: "Fertile Soil",
+	icon: { id: "rustic:fertile_soil", Count: 1b },
+	x: 0.0d, y: 2.0d,
+	dependencies: ["20000010"],
+	text: [
+		"Make Fertile Soil - an upgrade over dirt for your Bonsai Pots.",
+		"It can be ground back into normal dirt in a Crushing Tub if you ever need to - handy infinite loop."
+	],
+	tasks: [
+		{ uid: "31000004", type: "item", items: [ { id: "rustic:fertile_soil", Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "32000004", type: "item", item: { id: "minecraft:dirt", Count: 8b } }
+	]
+}

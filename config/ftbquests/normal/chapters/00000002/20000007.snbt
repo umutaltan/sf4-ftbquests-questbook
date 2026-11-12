@@ -1,0 +1,40 @@
+{
+	title: "Cauldron",
+	icon: {
+		id: "morecauldrons:oak_cauldron",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: ["10000009"],
+	text: [
+		"Craft a Cauldron. It catches rain, holds lava, and lets you dye things.",
+		"&eUp next:&r fill one with water, another with lava."
+	],
+	tasks: [
+		{
+			uid: "21000007",
+			type: "item",
+			items: [
+				{
+					id: "morecauldrons:oak_cauldron",
+					Count: 1b
+				}
+			],
+			count: 1L,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "22000007",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "22000018",
+			type: "item",
+			item: { id: "minecraft:bucket", Count: 2b }
+		}
+	]
+}

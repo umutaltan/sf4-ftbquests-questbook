@@ -1,0 +1,17 @@
+{
+	title: "Energized Smelter",
+	icon: { id: "mekanism:machineblock", Damage: 10s, Count: 1b },
+	x: 1.5d, y: 2.0d,
+	optional: true,
+	dependencies: ["50000004"],
+	text: [
+		"&7(Optional - Mekanism path)&r Build an Energized Smelter.",
+		"Doubles your ore output compared to a plain furnace - huge upgrade once you're mining in bulk."
+	],
+	tasks: [
+		{ uid: "51000005", type: "item", items: [ { id: "mekanism:machineblock", Damage: 10s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000005", type: "item", item: { id: "minecraft:redstone", Count: 8b } }
+	]
+}

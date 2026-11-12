@@ -1,0 +1,17 @@
+{
+	title: "Hopping Bonsai Pot (Optional)",
+	icon: { id: "bonsaitrees:bonsaipot", Damage: 1s, Count: 1b },
+	x: 1.5d, y: 0.0d,
+	optional: true,
+	dependencies: ["30000001"],
+	text: [
+		"&7(Optional)&r Upgrade to a Hopping Bonsai Pot - it auto-dumps harvests into a chest.",
+		"Great for AFK farming once you've got a few pots running."
+	],
+	tasks: [
+		{ uid: "31000002", type: "item", items: [ { id: "bonsaitrees:bonsaipot", Damage: 1s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "32000002", type: "item", item: { id: "minecraft:hopper", Count: 1b } }
+	]
+}

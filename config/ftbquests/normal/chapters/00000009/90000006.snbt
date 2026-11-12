@@ -1,0 +1,20 @@
+{
+	title: "Mystical Agriculture Complete",
+	icon: { id: "mysticalagradditions:supremium_paxel", Count: 1b },
+	x: 7.5d, y: 0.0d,
+	shape: "diamond",
+	size: 1.3d,
+	optional: true,
+	dependencies: ["90000005"],
+	text: [
+		"From a single starter seed to a top-tier Paxel - the Mystical Agriculture line is done.",
+		"Entirely optional, but a great resource shortcut once it's running."
+	],
+	tasks: [
+		{ uid: "91000006", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "92000006", type: "xp_levels", xp_levels: 4 },
+		{ uid: "92000007", type: "loot", table: 7 }
+	]
+}

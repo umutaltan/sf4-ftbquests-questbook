@@ -1,0 +1,17 @@
+{
+	title: "Inferium Essence",
+	icon: { id: "mysticalagriculture:crafting", Damage: 0s, Count: 1b },
+	x: 1.5d, y: 0.0d,
+	optional: true,
+	dependencies: ["90000001"],
+	text: [
+		"&7(Optional)&r Plant your Inferium Seeds and harvest 4 Inferium Essence.",
+		"Essence is the building block for every tier of Mystical Agriculture seed."
+	],
+	tasks: [
+		{ uid: "91000002", type: "item", items: [ { id: "mysticalagriculture:crafting", Damage: 0s, Count: 1b } ], count: 4L }
+	],
+	rewards: [
+		{ uid: "92000002", type: "item", item: { id: "minecraft:dirt", Count: 8b } }
+	]
+}

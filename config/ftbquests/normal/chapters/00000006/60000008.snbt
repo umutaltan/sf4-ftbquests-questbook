@@ -1,0 +1,17 @@
+{
+	title: "AE2 Mastered",
+	icon: { id: "appliedenergistics2:drive", Count: 1b },
+	x: 4.5d, y: 3.0d,
+	optional: true,
+	dependencies: ["60000007"],
+	text: [
+		"Crystal, Terminal, Drive Bay - your ME network is live.",
+		"If Simple Storage Network doesn't interest you, this alone clears Age Storage's requirement."
+	],
+	tasks: [
+		{ uid: "61000008", type: "checkmark" }
+	],
+	rewards: [
+		{ uid: "62000008", type: "item", item: { id: "minecraft:gold_block", Count: 2b } }
+	]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Resource Hog (Optional)",
+	icon: {
+		id: "resourcehogs:mud_bucket",
+		Count: 1b
+	},
+	x: 0.0d,
+	y: 7.0d,
+	optional: true,
+	dependencies: ["10000009"],
+	text: [
+		"&7(Optional)&r Feed a pig a Resource Hog mud bucket to turn it into a passive resource farm.",
+		"Set and forget - a nice trickle of extra materials while you do other things."
+	],
+	tasks: [
+		{
+			uid: "2100000c",
+			type: "item",
+			items: [
+				{
+					id: "resourcehogs:mud_bucket",
+					Count: 1b
+				}
+			],
+			count: 1L,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "2200000c",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "2200001d",
+			type: "item",
+			item: { id: "minecraft:porkchop", Count: 4b }
+		}
+	]
+}

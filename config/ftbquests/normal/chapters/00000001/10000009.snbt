@@ -1,0 +1,59 @@
+{
+	title: "Rock Bottom",
+	icon: {
+		id: "minecraft:cobblestone",
+		Count: 1b
+	},
+	x: 10.5d,
+	y: 0.0d,
+	shape: "diamond",
+	size: 1.3d,
+	dependencies: ["10000008"],
+	text: [
+		"Grab a Cobblestone from your Petrified tree. Welcome to real tool tier!",
+		"You've just finished the Tutorial. Everything from here grows off your Sky Orchards trees.",
+		"&eUp next:&r head into &bAge 1&r for more saplings, your first metals, and a cauldron."
+	],
+	tasks: [
+		{
+			uid: "11000009",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:cobblestone",
+					Count: 1b
+				}
+			],
+			count: 1L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000009",
+			type: "xp_levels",
+			xp_levels: 3
+		},
+		{
+			uid: "1200000a",
+			type: "item",
+			item: {
+				id: "minecraft:torch",
+				Count: 4b
+			}
+		},
+		{
+			uid: "1200000b",
+			type: "item",
+			item: {
+				id: "minecraft:dye",
+				Damage: 15s,
+				Count: 4b
+			}
+		},
+		{
+			uid: "12000014",
+			type: "item",
+			item: { id: "minecraft:cobblestone", Count: 32b }
+		}
+	]
+}

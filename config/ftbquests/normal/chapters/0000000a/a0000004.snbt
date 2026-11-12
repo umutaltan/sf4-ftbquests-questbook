@@ -1,0 +1,35 @@
+{
+	title: "Nothing Else Matters",
+	icon: { id: "deepmoblearning:pristine_matter_wither", Count: 1b },
+	x: 0.0d, y: 1.5d,
+	dependencies: ["50000011"],
+	text: [
+		"Collect 17 Pristine Matter total across every type - zombie, blaze, wither, shulker, the works.",
+		"This means running your Deep Mob Learning setup for a good while. Mix and match any types you have."
+	],
+	tasks: [
+		{ uid: "a1000004", type: "item", items: [
+			{ id: "deepmoblearning:pristine_matter_zombie", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_skeleton", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_creeper", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_spider", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_slime", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_witch", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_blaze", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_ghast", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_wither_skeleton", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_enderman", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_wither", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_shulker", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_guardian", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_tinker_slime", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_twilight_forest", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_twilight_swamp", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_twilight_darkwood", Count: 1b },
+			{ id: "deepmoblearning:pristine_matter_twilight_glacier", Count: 1b }
+		], count: 17L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "a2000004", type: "item", item: { id: "minecraft:diamond_block", Count: 4b } }
+	]
+}

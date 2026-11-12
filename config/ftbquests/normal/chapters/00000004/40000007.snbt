@@ -1,0 +1,17 @@
+{
+	title: "First Casting",
+	icon: { id: "tconstruct:cast", Count: 1b },
+	x: 4.5d, y: 1.2d,
+	optional: true,
+	dependencies: ["40000005"],
+	text: [
+		"&7(Optional)&r Pour molten metal into a Casting Table or Basin to make your first Cast.",
+		"A Cast is reusable - make one gold Cast and keep reusing its shape forever."
+	],
+	tasks: [
+		{ uid: "41000007", type: "item", items: [ { id: "tconstruct:cast", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000007", type: "item", item: { id: "minecraft:gold_ingot", Count: 2b } }
+	]
+}

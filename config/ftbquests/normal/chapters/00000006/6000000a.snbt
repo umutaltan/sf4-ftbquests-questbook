@@ -1,0 +1,17 @@
+{
+	title: "Network Cable",
+	icon: { id: "storagenetwork:kabel", Count: 1b },
+	x: 1.5d, y: 4.6d,
+	optional: true,
+	dependencies: ["60000009"],
+	text: [
+		"&7(Optional - Simple Storage Network path)&r Run Network Cable from your Master to your chests.",
+		"Any chest or barrel touched by cable becomes part of the network automatically."
+	],
+	tasks: [
+		{ uid: "6100000a", type: "item", items: [ { id: "storagenetwork:kabel", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "6200000a", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

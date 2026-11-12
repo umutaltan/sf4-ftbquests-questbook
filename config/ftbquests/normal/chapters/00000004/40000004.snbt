@@ -1,0 +1,17 @@
+{
+	title: "Pattern Chest (Optional)",
+	icon: { id: "tconstruct:tooltables", Damage: 4s, Count: 1b },
+	x: 1.5d, y: 1.2d,
+	optional: true,
+	dependencies: ["40000002"],
+	text: [
+		"&7(Optional)&r Build a Pattern Chest to store all your stencils neatly.",
+		"Not required, but your Part Builder table will thank you for the tidiness."
+	],
+	tasks: [
+		{ uid: "41000004", type: "item", items: [ { id: "tconstruct:tooltables", Damage: 4s, Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "42000004", type: "item", item: { id: "minecraft:chest", Count: 1b } }
+	]
+}

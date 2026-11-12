@@ -1,0 +1,17 @@
+{
+	title: "Configurator",
+	icon: { id: "mekanism:configurator", Count: 1b },
+	x: 0.0d, y: 2.0d,
+	optional: true,
+	dependencies: ["4000000e"],
+	text: [
+		"&7(Optional - Mekanism path)&r Craft a Configurator.",
+		"Changes block faces and settings on Mekanism machines - your multitool for this whole branch."
+	],
+	tasks: [
+		{ uid: "51000004", type: "item", items: [ { id: "mekanism:configurator", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "52000004", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

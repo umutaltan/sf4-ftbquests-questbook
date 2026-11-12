@@ -1,0 +1,39 @@
+{
+	title: "String",
+	icon: {
+		id: "minecraft:string",
+		Count: 1b
+	},
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: ["20000002"],
+	text: [
+		"Dry Cottonwood leaves on your Drying Rack to get String.",
+		"You'll want this for bows, fishing rods, and a dozen crafting recipes later."
+	],
+	tasks: [
+		{
+			uid: "21000003",
+			type: "item",
+			items: [
+				{
+					id: "minecraft:string",
+					Count: 1b
+				}
+			],
+			count: 4L
+		}
+	],
+	rewards: [
+		{
+			uid: "22000003",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "22000014",
+			type: "item",
+			item: { id: "minecraft:string", Count: 4b }
+		}
+	]
+}

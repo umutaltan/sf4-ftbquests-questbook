@@ -1,0 +1,16 @@
+{
+	title: "Cobalt Ore",
+	icon: { id: "tconstruct:ore", Damage: 0s, Count: 1b },
+	x: 0.0d, y: 5.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Find and mine Cobalt Ore.",
+		"Ardite's partner metal - alloy them together for Manyullyn, one of Tinkers' best materials."
+	],
+	tasks: [
+		{ uid: "71000009", type: "item", items: [ { id: "tconstruct:ore", Damage: 0s, Count: 1b } ], count: 1L }
+	],
+	rewards: [
+		{ uid: "7200000a", type: "item", item: { id: "minecraft:iron_ingot", Count: 4b } }
+	]
+}

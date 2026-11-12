@@ -1,0 +1,16 @@
+{
+	title: "Dragon Slain",
+	icon: { id: "minecraft:dragon_egg", Count: 1b },
+	x: 1.5d, y: 3.0d,
+	dependencies: ["70000005"],
+	text: [
+		"Defeat the Ender Dragon.",
+		"Bring your best gear - this is the classic Minecraft final boss, and it still hits hard."
+	],
+	tasks: [
+		{ uid: "71000006", type: "kill", entity: "minecraft:ender_dragon", value: 1L }
+	],
+	rewards: [
+		{ uid: "72000007", type: "item", item: { id: "minecraft:diamond_block", Count: 1b } }
+	]
+}

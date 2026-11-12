@@ -1,0 +1,17 @@
+{
+	title: "Network Master",
+	icon: { id: "storagenetwork:master", Count: 1b },
+	x: 0.0d, y: 5.0d,
+	optional: true,
+	dependencies: ["50000012"],
+	text: [
+		"&7(Optional - Simple Storage Network path)&r Place a Network Master block.",
+		"This is the heart of the network - everything else connects back to it."
+	],
+	tasks: [
+		{ uid: "61000009", type: "item", items: [ { id: "storagenetwork:master", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "62000009", type: "item", item: { id: "minecraft:iron_ingot", Count: 8b } }
+	]
+}

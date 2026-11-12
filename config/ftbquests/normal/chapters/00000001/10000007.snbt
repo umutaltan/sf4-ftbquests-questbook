@@ -1,0 +1,40 @@
+{
+	title: "Petrified Acorn",
+	icon: {
+		id: "sky_orchards:acorn_petrified",
+		Count: 1b
+	},
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: ["10000005", "10000006"],
+	text: [
+		"Harvest Dirt Acorns from your grown sapling and dry 8 of them on the Drying Rack.",
+		"Drying turns soft dirt acorns into tougher Petrified Acorns - the first real upgrade.",
+		"&eUp next:&r wrap a Dirt Sapling in 8 Petrified Acorns to make a Petrified Sapling."
+	],
+	tasks: [
+		{
+			uid: "11000007",
+			type: "item",
+			items: [
+				{
+					id: "sky_orchards:acorn_petrified",
+					Count: 1b
+				}
+			],
+			count: 8L
+		}
+	],
+	rewards: [
+		{
+			uid: "12000007",
+			type: "xp_levels",
+			xp_levels: 1
+		},
+		{
+			uid: "12000012",
+			type: "item",
+			item: { id: "sky_orchards:acorn_petrified", Count: 4b }
+		}
+	]
+}

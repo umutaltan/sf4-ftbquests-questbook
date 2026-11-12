@@ -1,0 +1,16 @@
+{
+	title: "End Cake",
+	icon: { id: "telepastries:end_cake", Count: 1b },
+	x: 0.0d, y: 3.0d,
+	dependencies: ["6000000e"],
+	text: [
+		"Bake an End Cake from TelePastries.",
+		"Eat it to teleport straight to the End - no stronghold-hunting required."
+	],
+	tasks: [
+		{ uid: "71000005", type: "item", items: [ { id: "telepastries:end_cake", Count: 1b } ], count: 1L, ignore_nbt: 1b }
+	],
+	rewards: [
+		{ uid: "72000006", type: "item", item: { id: "minecraft:golden_apple", Count: 1b } }
+	]
+}
